@@ -9,6 +9,12 @@ Radar-based game for the Arduino using a Nokia 1202 LCD and an analog joystick.
 Originally written in May 2012 for Ludum Dare MiniLD \#34: Aspect.
 The connection to the theme is that the playing area is circular.
 
+## Ludum Dare ##
+
+I wrote this program for Ludum Dare's MiniLD \#34:
+
+https://web.archive.org/web/20120531040724/http://www.ludumdare.com/compo/2012/05/09/minild-34-aspect/
+
 ## Screenshot ##
 
 ![RisibleRadar](game1.jpg "RisibleRadar")
