@@ -310,7 +310,7 @@ void drawRadarScreen (boolean rings, boolean axes)
 
 /* drawGatheredTargets --- draw the targets that we've walked over */
 
-void drawGatheredTargets ()
+void drawGatheredTargets (void)
 {
   int t;
   
@@ -429,7 +429,7 @@ void findNewEchoes (int r, int nt)
 }
 
 
-/* fineEchoSlot --- search the Echo array for an unused slot */
+/* findEchoSlot --- search the Echo array for an unused slot */
 
 int findEchoSlot (void)
 {
@@ -1297,4 +1297,3 @@ inline void lcdSpi (int d)
   LCDOUT |= CS;
   // digitalWrite (slaveSelectPin, HIGH);
 }
-
